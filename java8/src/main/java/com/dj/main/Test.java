@@ -23,12 +23,7 @@ public class Test {
 		List<String> collect = list.stream().map(User::getName).collect(Collectors.toList());
 		fun1(list);
 		System.out.println(1);
-		fun2();
-		fun2();
-		fun2();
-		fun2();
-		fun2();
-		fun2();
+	
 	}
 	public static String fun1(List<User> list) {
 		if (list.size() > 0) {
