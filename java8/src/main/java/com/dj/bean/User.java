@@ -1,6 +1,9 @@
 package com.dj.bean;
 
 public class User {
+	/**
+	 * 用户名
+	 */
 	private String name;
 	private int age;
 	public String getName() {
