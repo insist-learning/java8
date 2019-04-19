@@ -5,6 +5,9 @@ public class User {
 	 * 用户名
 	 */
 	private String name;
+	/**
+	 * 年龄
+	 */
 	private int age;
 	public String getName() {
 		return name;
