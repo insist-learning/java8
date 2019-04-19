@@ -7,10 +7,10 @@ import java.util.TreeSet;
 public class TestStack {
 	public static void main(String[] args) {
 		/**
-		 * stack ÏÈ½øºó³ö
-		 * push():Ìí¼ÓÖÁÍ·²¿£¬½øÕ»£¨´ÓÍ·²¿½øÈë£©
-		 * peek():È¡Í·²¿
-		 * pop():´ÓÍ·²¿ÒÆ³ı£¬³öÆß£¨´ÓÍ·²¿³öÈ¥£©
+		 * stack å…ˆè¿›åå‡º
+		 * push():æ·»åŠ è‡³å¤´éƒ¨ï¼Œè¿›æ ˆï¼ˆä»å¤´éƒ¨è¿›å…¥ï¼‰
+		 * peek():å–å¤´éƒ¨
+		 * pop():ä»å¤´éƒ¨ç§»é™¤ï¼Œå‡ºä¸ƒï¼ˆä»å¤´éƒ¨å‡ºå»ï¼‰
 		 */
 //		Stack<String> stack = new Stack<String>();
 //		for (String s: "My dogs has files".split(" "))
@@ -20,9 +20,9 @@ public class TestStack {
 		
 		
 		/**
-		 * Set ×î³£ÓÃµÄ·½·¨£ºcontains,containsAll
-		 * Random(47)£º47 ÊÇ²úÉúËæ»úÊıµÄÒ»¸öÖÖ×Ó£¬Ëæ»úÊı²úÉúÊ±ĞèÒªÒ»¸öÖÖ×Ó£¬Èç¹ûÃ»ÓĞËµÃ÷ÔòÄ¬ÈÏÈ¡ÏµÍ³µÄµ±Ç°Ê±¼ä
-		 * SortedSet £ºTreeSet µÄÒ»ÖÖÊµÏÖ£¬¿ÉÒÔ¶Ô½á¹û½øĞĞÅÅĞò
+		 * Set æœ€å¸¸ç”¨çš„æ–¹æ³•ï¼šcontains,containsAll
+		 * Random(47)ï¼š47 æ˜¯äº§ç”Ÿéšæœºæ•°çš„ä¸€ä¸ªç§å­ï¼Œéšæœºæ•°äº§ç”Ÿæ—¶éœ€è¦ä¸€ä¸ªç§å­ï¼Œå¦‚æœæ²¡æœ‰è¯´æ˜åˆ™é»˜è®¤å–ç³»ç»Ÿçš„å½“å‰æ—¶é—´
+		 * SortedSet ï¼šTreeSet çš„ä¸€ç§å®ç°ï¼Œå¯ä»¥å¯¹ç»“æœè¿›è¡Œæ’åº
 		 */
 //		SortedSet<Integer> intset = new TreeSet<Integer>();
 //		Random rand = new Random(47);

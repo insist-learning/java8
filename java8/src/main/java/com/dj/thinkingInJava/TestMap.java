@@ -5,14 +5,14 @@ import java.util.Map;
 import java.util.Random;
 
 public class TestMap {
-	/*¾²Ì¬´úÂë¿éËæ×ÅÀàµÄ¼ÓÔØ¶øÖ´ĞĞ£¬²¢ÇÒÖ»Ö´ĞĞÒ»´Î*/
+	/*é™æ€ä»£ç å—éšç€ç±»çš„åŠ è½½è€Œæ‰§è¡Œï¼Œå¹¶ä¸”åªæ‰§è¡Œä¸€æ¬¡*/
 	static {
 		
 	}
 	public static void main(String[] args) {
-		// ÓÃ map À´Í³¼Æ key ³öÏÖµÄ´ÎÊı
+		// ç”¨ map æ¥ç»Ÿè®¡ key å‡ºç°çš„æ¬¡æ•°
 		/**
-		 * map.values():ËùÓĞ values µÄ¼¯ºÏ
+		 * map.values():æ‰€æœ‰ values çš„é›†åˆ
 		 */
 		System.out.println(1);
 		System.out.println(1);
