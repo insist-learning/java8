@@ -7,7 +7,7 @@ import java.util.Random;
 public class TestMap {
 	/*静态代码块随着类的加载而执行，并且只执行一次*/
 	static {
-		
+	    // 测试githut的更新	
 	}
         static {
 	   // 静态代码可以有多个，测试
