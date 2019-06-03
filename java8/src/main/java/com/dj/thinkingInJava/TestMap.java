@@ -10,7 +10,7 @@ public class TestMap {
 		
 	}
         static {
-	   // 静态代码可以有多个
+	   // 静态代码可以有多个，测试
 	}
 	public static void main(String[] args) {
 		// 用 map 来统计 key 出现的次数
