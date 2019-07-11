@@ -22,7 +22,7 @@ public class Test {
 				new Employee("小草", 44, 22.5));
 		
 		
-		// 转换对象 map
+		// 转换对象 map,stream 用在集合中默认 lamda 的参数为每个对象,类型为集合参数的类型
 		List<Double> doubleList = list.stream().map(Employee::getMoney).collect(Collectors.toList());
 		System.out.println(doubleList);
 		
