@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import com.dj.bean.Employee;
 
@@ -22,7 +23,8 @@ public class Test {
 				new Employee("小明", 44, 100.0),
 				new Employee("小草", 44, 22.5));
 		
-		// 转换对象 map,stream 用在集合中默认 lamda 的参数为每个对象,类型为集合参数的类型
+		// 转换对象 map,stream 用在集合中默认 lamda 的参数为每个对象,类型为集合参数的类型 
+		// Stream<Employee>-->Stream<Double>
 		List<Double> doubleList = list.stream().map(Employee::getMoney).collect(Collectors.toList());
 		System.out.println(doubleList);
 		
