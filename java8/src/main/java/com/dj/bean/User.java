@@ -11,7 +11,7 @@ public class User {
 	private int age;
 
 	
-	
+	//获取用户名
 	public String getName() {
 		return name;
 	}
