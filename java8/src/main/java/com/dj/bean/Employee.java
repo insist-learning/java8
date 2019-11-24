@@ -1,7 +1,7 @@
 package com.dj.bean;
 
 public class Employee {
-	//名称
+	//名称.
 	private String name;
 	private int age;
 	private Double money;
