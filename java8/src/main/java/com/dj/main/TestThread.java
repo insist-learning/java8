@@ -9,7 +9,7 @@ public class TestThread {
 	public static void main(String[] args) throws Exception{
 		ConcurrentHashMap<String, Boolean> map = new ConcurrentHashMap<String, Boolean>(1);
 
-		// 吊转小车
+		// 吊转小车1
 		Thread thread2 = new Thread(new Runnable() {
 
 			@Override
